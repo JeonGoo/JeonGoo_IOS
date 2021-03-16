@@ -150,6 +150,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnD-0b-cyN" customClass="CustomButton" customModule="JeonGoo" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="162.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <state key="normal" title="취소"/>
                                                 <connections>
                                                     <action selector="cancel:" destination="clm-uW-gtg" eventType="touchUpInside" id="WgD-m5-pvb"/>
@@ -158,6 +159,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHI-BA-5jt" customClass="CustomButton" customModule="JeonGoo" customModuleProvider="target">
                                                 <rect key="frame" x="172.5" y="0.0" width="159.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <state key="normal" title="다음"/>
                                                 <connections>
                                                     <segue destination="rDD-Pz-Og5" kind="show" id="u0W-o0-Gmp"/>
@@ -312,19 +314,19 @@
                                 <rect key="frame" x="31" y="269" width="352" height="358"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qtw-8D-VkL">
-                                        <rect key="frame" x="10" y="30" width="332" height="210"/>
+                                        <rect key="frame" x="10" y="30" width="332" height="194.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EYG-a3-VBX">
-                                                <rect key="frame" x="0.0" y="0.0" width="332" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="332" height="18.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWr-Ap-ft0">
-                                                        <rect key="frame" x="0.0" y="0.0" width="73" height="34"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="73" height="18.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ldv-Xh-zxA">
-                                                        <rect key="frame" x="73" y="0.0" width="259" height="34"/>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ldv-Xh-zxA">
+                                                        <rect key="frame" x="73" y="0.0" width="259" height="18.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
@@ -334,12 +336,12 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zEK-cT-fOS">
-                                                <rect key="frame" x="0.0" y="44" width="332" height="34"/>
+                                                <rect key="frame" x="0.0" y="28.5" width="332" height="34"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pass" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARd-6U-aOS">
                                                         <rect key="frame" x="0.0" y="0.0" width="73" height="34"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h7V-p3-haF">
@@ -353,12 +355,12 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Hq-xS-M1b">
-                                                <rect key="frame" x="0.0" y="88" width="332" height="34"/>
+                                                <rect key="frame" x="0.0" y="72.5" width="332" height="34"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PassCheck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GVu-ng-m2N">
                                                         <rect key="frame" x="0.0" y="0.0" width="73" height="34"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ei1-pF-XGz">
@@ -372,12 +374,12 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZL9-Uf-VhB">
-                                                <rect key="frame" x="0.0" y="132" width="332" height="34"/>
+                                                <rect key="frame" x="0.0" y="116.5" width="332" height="34"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6GF-xq-f7v">
                                                         <rect key="frame" x="0.0" y="0.0" width="73" height="34"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FtY-1D-Qoc">
@@ -391,12 +393,12 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6bn-4y-Do1">
-                                                <rect key="frame" x="0.0" y="176" width="332" height="34"/>
+                                                <rect key="frame" x="0.0" y="160.5" width="332" height="34"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7y7-f0-KIj">
                                                         <rect key="frame" x="0.0" y="0.0" width="73" height="34"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c2C-8E-cC9">
@@ -416,6 +418,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsd-bO-iyy" customClass="CustomButton" customModule="JeonGoo" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="162.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <state key="normal" title="완료"/>
                                                 <connections>
                                                     <action selector="join:" destination="rDD-Pz-Og5" eventType="touchUpInside" id="7vo-eV-tMc"/>
@@ -423,6 +426,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5B-af-cbd" customClass="CustomButton" customModule="JeonGoo" customModuleProvider="target">
                                                 <rect key="frame" x="172.5" y="0.0" width="159.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <state key="normal" title="취소"/>
                                                 <connections>
                                                     <action selector="cancel:" destination="rDD-Pz-Og5" eventType="touchUpInside" id="VES-Iz-rvS"/>
